@@ -1,7 +1,7 @@
 # template-python-cmd
 A template for quickly making a python lib that has a command line program attached
 
-[![Linting](../../actions/workflows/lint.yml/badge.svg)](https://github.com/zackees/template-python-cmd/actions/workflows/lint.yml)
+[![Linting](../../actions/workflows/lint.yml/badge.svg)](../../actions/workflows/lint.yml)
 
 [![MacOS_Tests](https://github.com/zackees/template-python-cmd/actions/workflows/push_macos.yml/badge.svg)](https://github.com/zackees/template-python-cmd/actions/workflows/push_macos.yml)
 [![Ubuntu_Tests](https://github.com/zackees/template-python-cmd/actions/workflows/push_ubuntu.yml/badge.svg)](https://github.com/zackees/template-python-cmd/actions/workflows/push_ubuntu.yml)
