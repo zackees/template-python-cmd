@@ -13,7 +13,7 @@
     already.
 """
 
-# pylint: disable
+# pylint: disable=all
 
 import os
 import shutil
