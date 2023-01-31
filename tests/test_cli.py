@@ -6,6 +6,7 @@ import os
 
 COMMAND = "test_cmd"
 
+
 class MainTester(unittest.TestCase):
     """Main tester class."""
 
