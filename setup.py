@@ -31,4 +31,3 @@ if __name__ == "__main__":
         package_data={"": ["assets/example.txt"]},
         include_package_data=True)
 
-    
