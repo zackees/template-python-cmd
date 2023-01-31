@@ -1,3 +1,7 @@
+"""
+Setup file.
+"""
+
 import os
 import re
 
