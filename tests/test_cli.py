@@ -4,13 +4,14 @@ Unit test file.
 import unittest
 import os
 
+COMMAND = "test_cmd"
 
 class MainTester(unittest.TestCase):
     """Main tester class."""
 
     def test_imports(self) -> None:
         """Test command line interface (CLI)."""
-        rtn = os.system("test_cmd")
+        rtn = os.system(COMMAND)
         self.assertEqual(0, rtn)
 
 
