@@ -5,10 +5,10 @@ Setup file.
 import os
 import re
 
-import setuptools
+from setuptools import setup
 
 URL = "https://github.com/zackees/template-python-cmd"
-
+KEYWORDS = ""
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -27,8 +27,9 @@ def get_readme() -> str:
 
 
 if __name__ == "__main__":
-    setuptools.setup(
+    setup(
         maintainer="Zachary Vorhies",
+        keywords=KEYWORDS,
         long_description=get_readme(),
         long_description_content_type="text/markdown",
         url=URL,
