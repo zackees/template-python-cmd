@@ -17,6 +17,15 @@ dependencies = [
 # Also make the change in zcmds/version.py
 version = "1.0.0"
 
+[tool.pylint."MESSAGES CONTROL"]
+good-names = [
+    "c",
+    "i",
+    "ok",
+    "id",
+    "e"
+]
+
 [tool.mypy]
 ignore_missing_imports = true
 
