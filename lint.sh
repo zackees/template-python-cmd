@@ -2,6 +2,11 @@
 set -e
 # cd to self bash script directory
 cd $( dirname ${BASH_SOURCE[0]})
+. ./activate.sh
+echo Running ruff src
+ruff --fix src
+echo Running ruff tests
+ruff --fix tests
 echo Running black src tests
 black src tests
 echo Running isort src tests
