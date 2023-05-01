@@ -17,6 +17,9 @@ dependencies = [
 # Also make the change in zcmds/version.py
 version = "1.0.0"
 
+[tool.ruff]
+line-length = 200
+
 [tool.pylint."MESSAGES CONTROL"]
 good-names = [
     "c",
