@@ -1,8 +1,8 @@
 """
 Unit test file.
 """
-import unittest
 import os
+import unittest
 
 COMMAND = "test_cmd"
 
@@ -18,4 +18,3 @@ class MainTester(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
