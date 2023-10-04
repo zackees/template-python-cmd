@@ -3,8 +3,15 @@ set -e
 function abs_path {
   (cd "$(dirname '$1')" &>/dev/null && printf "%s/%s" "$PWD" "${1##*/}")
 }
-alias python=python3
-alias pip=pip3
+
+if [[ $(uname -a) == *"Microsoft"* ]]; then
+  echo "Running on Windows"
+else
+  echo "Running on $(uname -a)"
+  alias python=python3
+  alias pip=pip3
+fi
+
 # if make_venv dir is not present, then make it
 if [ ! -d "venv" ]; then
   python make_venv.py
