@@ -29,6 +29,10 @@ good-names = [
     "e",
     "f"
 ]
+disable = [
+    "missing-function-docstring",
+    "missing-module-docstring"
+]
 
 [tool.isort]
 profile = "black"
