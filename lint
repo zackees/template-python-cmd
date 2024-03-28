@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e
-# cd to self bash script directory
-cd $( dirname ${BASH_SOURCE[0]})
 . ./activate.sh
 echo Running ruff src
 ruff --fix src
@@ -16,3 +14,4 @@ flake8 src tests
 echo Running mypy src
 mypy src tests
 echo Linting complete!
+exit(0)
