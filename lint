@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-. ./activate.sh
+. ./activate
 echo Running ruff src
 ruff check --fix src
 echo Running ruff tests
