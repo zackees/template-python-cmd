@@ -109,6 +109,7 @@ celerybeat.pid
 
 # Environments
 .env
+*rclone.conf
 .venv
 env/
 venv/
