@@ -26,4 +26,7 @@
     "python.analysis.extraPaths": [
         "."
     ]
+    // Adds those fancy arrows to run a specific test.
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
 }
