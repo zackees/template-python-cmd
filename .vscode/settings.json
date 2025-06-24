@@ -5,6 +5,7 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.profiles.windows": {
         "Git Bash": {
             "path": "C:\\Program Files\\Git\\bin\\bash.exe",
